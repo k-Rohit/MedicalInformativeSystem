@@ -1,4 +1,5 @@
-<%--
+<%@ page import="java.sql.Connection" %>
+<%@ page import="com.db.DataBaseConnection" %><%--
   Created by IntelliJ IDEA.
   User: kumarrohit
   Date: 13/04/23
@@ -14,6 +15,7 @@
 <body>
 <%@include file="component/navbar.jsp"%>
 
+<% Connection connection = DataBaseConnection.getConnection();%>
 
 <%-- Sidebar  --%>
 

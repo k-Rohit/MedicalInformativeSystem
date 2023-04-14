@@ -4,21 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="649de66e-e95a-4a54-b8e2-4da461d51b02" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/Images/brandon-holmes-GofYo51GQ_4-unsplash.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/Images/doctor-robot.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/Images/hush-naidoo-jade-photography-yo01Z-9HQAw-unsplash.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/Images/national-cancer-institute-1c8sj2IO2I4-unsplash.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/component/css.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/component/navbar.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/signup.jsp" afterDir="false" />
+    <list default="true" id="649de66e-e95a-4a54-b8e2-4da461d51b02" name="Changes" comment="initial commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/db/DataBaseConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/db/DataBaseConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,6 +76,19 @@
     </key>
   </component>
   <component name="RunManager" selected="Smart Tomcat.demotom">
+    <configuration name="DataBaseConnection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.db.DataBaseConnection" />
+      <module name="HospitalManagementSystem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.db.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="All in demo2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HospitalManagementSystem" />
       <option name="PACKAGE_NAME" value="" />
@@ -133,11 +135,13 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.DataBaseConnection" />
       <item itemvalue="JUnit.All in demo2" />
       <item itemvalue="Smart Tomcat.demotom" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DataBaseConnection" />
         <item itemvalue="JUnit.All in demo2" />
       </list>
     </recent_temporary>
@@ -151,8 +155,16 @@
       <option name="presentableId" value="Default" />
       <updated>1681397973393</updated>
       <workItem from="1681397974627" duration="1941000" />
-      <workItem from="1681402962389" duration="12804000" />
+      <workItem from="1681402962389" duration="15818000" />
     </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <created>1681416804743</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1681416804743</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,5 +180,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
   </component>
 </project>
