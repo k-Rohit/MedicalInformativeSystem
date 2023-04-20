@@ -10,14 +10,14 @@
 <head>
     <title>User Register</title>
     <%@include file="component/css.jsp"%>
-    <%@include file="component/navbar.jsp"%>
+
 </head>
 
 
 
 
 <body>
-
+<%@include file="component/navbar.jsp"%>
 <div class="container p-5">
     <div class="row">
         <div class="col-md-4 offset-md-4">
@@ -52,7 +52,7 @@
                                                                               name="password" type="password" class="form-control">
                         </div>
 
-                        <button type="submit" class="btn bg-success text-white col-md-12">Login</button>
+                        <button type="submit" class="btn bg-success text-white col-md-12">Regsiter</button>
                     </form>
                 </div>
             </div>
